@@ -1,0 +1,101 @@
+{
+  "registry": {
+    "strings": [
+      "storage",
+      "value",
+      "u256",
+      "Storage",
+      "new",
+      "a",
+      "b",
+      "get",
+      "addTwoNums"
+    ],
+    "types": [
+      {
+        "id": {
+          "custom.name": 1,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": []
+        }
+      },
+      {
+        "id": "u256",
+        "def": "builtin"
+      }
+    ]
+  },
+  "storage": {
+    "struct.type": 1,
+    "struct.fields": [
+      {
+        "name": 4,
+        "layout": {
+          "struct.type": 1,
+          "struct.fields": [
+            {
+              "name": 2,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "range.len": "1",
+                "range.elem_type": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contract": {
+    "name": 9,
+    "constructors": [
+      {
+        "name": 5,
+        "selector": "[\"0xD7\",\"0x77\",\"0x7C\",\"0x36\"]",
+        "docs": [
+          "Constructor that initializes the `bool` value to the given `init_value`."
+        ],
+        "args": [
+          {
+            "name": 6,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                3
+              ]
+            }
+          },
+          {
+            "name": 7,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                3
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "name": 8,
+        "selector": "[\"0x6D\",\"0x4C\",\"0xE6\",\"0x3C\"]",
+        "docs": [
+          "Simply returns the current value of our `bool`."
+        ],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 2,
+          "display_name": [
+            3
+          ]
+        }
+      }
+    ]
+  }
+}
